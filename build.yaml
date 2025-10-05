@@ -23,3 +23,5 @@ include:
     shield: splitflow_left
   - board: seeeduino_xiao_ble
     shield: splitflow_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
