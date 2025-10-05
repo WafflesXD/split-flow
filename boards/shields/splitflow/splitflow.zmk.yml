@@ -1,0 +1,10 @@
+file_format: "1"
+id: splitflow
+name: Splitflow
+type: shield
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - splitflow_left
+  - splitflow_right
