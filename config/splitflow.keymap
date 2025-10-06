@@ -10,7 +10,7 @@
 
         base {
             bindings = <
-&kp Q           &kp B       &kp F        &kp P         &kp E          &kp J        &kp L              &kp U         &kp Y       &kp SQT
+&kp Q           &kp W       &kp F        &kp P         &kp B          &kp J        &kp L              &kp U         &kp Y       &kp SQT
 &mt LEFT_GUI A  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G          &kp M        &mt RIGHT_SHIFT N  &mt RCTRL E   &mt RALT I  &mt RMETA O
 &kp Z           &kp X       &kp C        &kp D         &kp V          &kp K        &kp H              &kp COMMA     &kp DOT     &kp FSLH
                             &lt 2 ESC    &lt 1 SPACE   &lt 3 TAB      &lt 5 ENTER  &lt 3 BACKSPACE    &lt 6 DELETE
