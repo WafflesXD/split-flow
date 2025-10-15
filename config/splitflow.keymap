@@ -46,7 +46,7 @@
 
         navigation {
             bindings = <
-&trans    &trans    &trans     &tog 7     &trans       &kp RC(Y)     &kp RC(V)  &kp RC(C)  &kp RC(X)  &kp RC(Z)
+&trans    &trans    &trans     &to 7      &trans       &kp RC(Y)     &kp RC(V)  &kp RC(C)  &kp RC(X)  &kp RC(Z)
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp CAPSLOCK  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT
 &trans    &trans    &trans     &trans     &trans       &kp INS       &kp HOME   &kp PG_DN  &kp PG_UP  &kp END
                     &kp ESC    &trans     &kp TAB      &kp RET       &kp BSPC   &kp DEL
@@ -100,7 +100,7 @@
 
         game {
             bindings = <
-&kp Q  &kp W  &kp F    &kp P      &kp B        &kp J    &kp L     &kp U      &kp Y    &tog 0
+&kp Q  &kp W  &kp F    &kp P      &kp B        &kp J    &kp L     &kp U      &kp Y    &to 0
 &kp A  &kp R  &kp S    &kp T      &kp G        &kp M    &kp N     &kp E      &kp I    &kp O
 &kp Z  &kp X  &kp C    &kp D      &kp V        &kp K    &kp H     &kp COMMA  &kp DOT  &kp FSLH
               &kp ESC  &kp SPACE  &kp TAB      &kp RET  &kp BSPC  &kp DEL
