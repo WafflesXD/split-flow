@@ -22,13 +22,6 @@
     >;
   };
 
-  layout: physical_layout_0 {
-    compatible = "zmk,physical-layout";
-    display-name = "Layout";
-    kscan = <&scan>;
-    transform = <&transform>;
-  };
-
   chosen {
     zmk,kscan = &scan;
     zmk,physical-layout = &phylayout;
