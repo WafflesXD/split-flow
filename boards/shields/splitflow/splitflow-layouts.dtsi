@@ -5,7 +5,6 @@
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
 
-        kscan = <&scan>;
         transform = <&transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -51,9 +50,7 @@
     position_map {
         compatible = "zmk,physical-layout-position-map";
 
-        complete;
-
-        layout {
+        layout: layout1 {
             physical-layout = <&phylayout>;
             positions = <>;
         };

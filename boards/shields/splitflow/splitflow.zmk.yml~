@@ -5,7 +5,6 @@ type: shield
 requires: [seeed_xiao]
 features:
   - keys
-  - studio
 siblings:
   - splitflow_left
   - splitflow_right

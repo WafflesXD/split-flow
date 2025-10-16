@@ -30,6 +30,7 @@
   };
 
   chosen {
+    zmk,kscan = &scan;
     zmk,physical-layout = &phylayout;
   };
 

@@ -5,7 +5,6 @@
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
 
-        kscan = <&scan>;
         transform = <&transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -23,8 +22,8 @@
             , <&key_physical_attrs 100 100  200  153  (-500)   250   203>
             , <&key_physical_attrs 100 100  311  100       0     0     0>
             , <&key_physical_attrs 100 100  422  153     200   472   203>
-            , <&key_physical_attrs 100 100  522  170     200   572   220>
-            , <&key_physical_attrs 100 100 1267  170  (-200)  1317   220>
+            , <&key_physical_attrs 100 100  522  171     200   572   221>
+            , <&key_physical_attrs 100 100 1267  171  (-200)  1317   221>
             , <&key_physical_attrs 100 100 1367  153  (-200)  1417   203>
             , <&key_physical_attrs 100 100 1478  100       0     0     0>
             , <&key_physical_attrs 100 100 1590  153     500  1640   203>
@@ -33,19 +32,28 @@
             , <&key_physical_attrs 100 100  208  253  (-500)   258   303>
             , <&key_physical_attrs 100 100  311  200       0     0     0>
             , <&key_physical_attrs 100 100  419  253     200   469   303>
-            , <&key_physical_attrs 100 100  518  270     200   568   320>
-            , <&key_physical_attrs 100 100 1271  270  (-200)  1321   320>
+            , <&key_physical_attrs 100 100  518  271     200   568   321>
+            , <&key_physical_attrs 100 100 1271  271  (-200)  1321   321>
             , <&key_physical_attrs 100 100 1371  253  (-200)  1421   303>
             , <&key_physical_attrs 100 100 1478  200       0     0     0>
             , <&key_physical_attrs 100 100 1581  253     500  1631   303>
             , <&key_physical_attrs 100 100 1681  300     500  1731   350>
-            , <&key_physical_attrs 100 100  477  370     200   527   420>
+            , <&key_physical_attrs 100 100  477  371     200   527   421>
             , <&key_physical_attrs 100 100  586  388    1500   636   438>
             , <&key_physical_attrs 100 100  689  433    3000   739   483>
             , <&key_physical_attrs 100 100 1100  433 (-3000)  1150   483>
             , <&key_physical_attrs 100 100 1203  388 (-1500)  1253   438>
-            , <&key_physical_attrs 100 100 1312  370  (-200)  1362   420>
+            , <&key_physical_attrs 100 100 1312  371  (-200)  1362   421>
             ;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        layout: layout1 {
+            physical-layout = <&phylayout>;
+            positions = <>;
+        };
     };
 };
 
