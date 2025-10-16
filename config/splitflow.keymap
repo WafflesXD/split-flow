@@ -100,10 +100,10 @@
 
         game {
             bindings = <
-&kp Q  &kp W  &kp F    &kp P      &kp B        &kp J    &kp L     &kp U      &kp Y    &to 0
-&kp A  &kp R  &kp S    &kp T      &kp G        &kp M    &kp N     &kp E      &kp I    &kp O
-&kp Z  &kp X  &kp C    &kp D      &kp V        &kp K    &kp H     &kp COMMA  &kp DOT  &kp FSLH
-              &kp ESC  &kp SPACE  &kp TAB      &kp RET  &kp BSPC  &kp DEL
+&mt LSHIFT Q  &kp W  &kp F    &kp P      &kp B        &kp J        &kp L            &kp U         &kp Y    &to 0
+&kp A         &kp R  &kp S    &kp T      &kp G        &kp M        &kp N            &kp E         &kp I    &kp O
+&kp Z         &kp X  &kp C    &kp D      &kp V        &kp K        &kp H            &kp COMMA     &kp DOT  &kp FSLH
+                     &kp ESC  &kp SPACE  &kp TAB      &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DELETE
             >;
         };
     };
