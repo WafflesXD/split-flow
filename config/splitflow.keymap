@@ -40,13 +40,13 @@
 &kp Q        &kp W        &kp F         &kp P          &kp B          &kp J        &kp L               &kp U         &kp Y        &kp SQT
 &hrm LGUI A  &hrm LALT R  &hrm LCTRL S  &hrm LSHIFT T  &kp G          &kp M        &hrm RIGHT_SHIFT N  &hrm RCTRL E  &hrm RALT I  &hrm RMETA O
 &kp Z        &kp X        &kp C         &kp D          &kp V          &kp K        &kp H               &kp COMMA     &kp DOT      &kp FSLH
-                          &lt 2 ESC     &lt 1 SPACE    &lt 3 TAB      &lt 5 ENTER  &lt 4 BACKSPACE     &lt 6 DELETE
+                          &lt 2 ESC     &lt 1 SPACE    &lt 3 TAB      &lt 6 ENTER  &lt 5 BACKSPACE     &lt 7 DELETE
             >;
         };
 
         navigation {
             bindings = <
-&trans    &trans    &trans     &to 7      &trans       &kp RC(Y)     &kp RC(V)  &kp RC(C)  &kp RC(X)  &kp RC(Z)
+&trans    &trans    &trans     &to 4      &trans       &kp RC(Y)     &kp RC(V)  &kp RC(C)  &kp RC(X)  &kp RC(Z)
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp CAPSLOCK  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT
 &trans    &trans    &trans     &trans     &trans       &kp INS       &kp HOME   &kp PG_DN  &kp PG_UP  &kp END
                     &kp ESC    &trans     &kp TAB      &kp RET       &kp BSPC   &kp DEL
@@ -55,7 +55,7 @@
 
         media {
             bindings = <
-&trans    &trans    &trans     &trans     &trans       &out OUT_USB  &trans            &trans        &trans        &trans
+&trans    &trans    &trans     &trans     &trans       &out OUT_USB  &trans            &trans        &trans        &studio_unlock
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &out OUT_BLE  &kp K_PREV        &kp C_VOL_DN  &kp C_VOL_UP  &kp K_NEXT
 &trans    &trans    &trans     &trans     &trans       &bt BT_CLR    &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
                     &trans     &kp SPACE  &kp TAB      &kp K_STOP    &kp K_PLAY_PAUSE  &kp K_MUTE
@@ -68,6 +68,15 @@
 &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans      &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
 &trans    &trans    &trans     &trans     &trans      &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
                     &kp ESC    &kp SPACE  &trans      &mkp RCLK  &mkp LCLK       &mkp MCLK
+            >;
+        };
+
+        game {
+            bindings = <
+&mt LSHIFT Q  &kp W  &kp F    &kp P      &kp B        &kp J        &kp L            &kp U         &kp Y    &to 0
+&kp A         &kp R  &kp S    &kp T      &kp G        &kp M        &kp N            &kp E         &kp I    &kp O
+&kp Z         &kp X  &kp C    &kp D      &kp V        &kp K        &kp H            &kp COMMA     &kp DOT  &kp FSLH
+                     &kp ESC  &kp SPACE  &kp TAB      &lt 6 ENTER  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
         };
 
@@ -95,15 +104,6 @@
 &kp F11  &kp F4  &kp F5     &kp F6     &kp SCROLLLOCK       &trans   &kp LSHFT      &kp LCTRL  &kp RALT  &kp RMETA
 &kp F10  &kp F1  &kp F2     &kp F3     &kp PAUSE_BREAK      &trans   &trans         &trans     &trans    &trans
                  &kp K_APP  &kp SPACE  &kp TAB              &kp RET  &kp BACKSPACE  &trans
-            >;
-        };
-
-        game {
-            bindings = <
-&mt LSHIFT Q  &kp W  &kp F    &kp P      &kp B        &kp J        &kp L            &kp U         &kp Y    &to 0
-&kp A         &kp R  &kp S    &kp T      &kp G        &kp M        &kp N            &kp E         &kp I    &kp O
-&kp Z         &kp X  &kp C    &kp D      &kp V        &kp K        &kp H            &kp COMMA     &kp DOT  &kp FSLH
-                     &kp ESC  &kp SPACE  &kp TAB      &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DELETE
             >;
         };
     };
