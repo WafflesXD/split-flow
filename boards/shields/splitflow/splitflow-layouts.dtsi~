@@ -1,12 +1,12 @@
 #include <physical_layouts.dtsi>
 
 / {
-    physical_layout0: physical_layout_0 {
+    phylayout: physical_layout_1 {
         compatible = "zmk,physical-layout";
         display-name = "LAYOUT";
 
-        kscan = <&kscan0>;
-        transform = <&matrix_transform0>;
+        kscan = <&scan>;
+        transform = <&transform>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0  209  (-500)    50   259>
